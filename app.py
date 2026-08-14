@@ -14,7 +14,7 @@ st.set_page_config(page_title="Live ETF 100m Dash", layout="wide")
 st.title("🏃 Live ETF Intraday 100m Dash")
 
 TICKERS = ['GSEW', 'EUSA', 'VV', 'VTI', 'AVLV', 'RSP',
-           'EQWL', 'EQAL', 'SCHB', 'BKLC', 'VONV', 'VOOV']
+           'EQWL', 'EQAL', 'SCHB','SCHX', 'BKLC', 'VONV', 'VOOV']
 
 REFRESH_SECONDS = 15          # how often the page reruns
 CACHE_TTL = 10                # how often new data is actually fetched
